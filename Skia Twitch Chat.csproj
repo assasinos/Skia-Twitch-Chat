@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Skia Twitch Chat</AssemblyName>
+        <RootNamespace>Skia Twitch Chat</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Silk.NET.Core" Version="2.17.1" />
+      <PackageReference Include="Silk.NET.Input.Common" Version="2.17.1" />
+      <PackageReference Include="Silk.NET.Input.Glfw" Version="2.17.1" />
+      <PackageReference Include="Silk.NET.Maths" Version="2.17.1" />
+      <PackageReference Include="Silk.NET.Windowing.Common" Version="2.17.1" />
+      <PackageReference Include="Silk.NET.Windowing.Glfw" Version="2.17.1" />
+      <PackageReference Include="SkiaSharp" Version="2.88.3" />
+      <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="2.88.3" />
+    </ItemGroup>
+
+</Project>
